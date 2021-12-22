@@ -8,10 +8,24 @@ For a bot template including command/event handlers, see `Advanced-DisocrdJS-Bot
 For a bot template including automod features, see `AutoMod-DiscordJS-Bot-Template`.
 
 
-## How to set up:
-- Create a folder for your discord bot. 
-- Download the Basic-DiscordJS-Bot-Template files from github, and extract it into your newly created discord bot folder.
-- Install the required discord.js modules through `npm i`.
-- Edit the `config.json` file and replace `bot token here` with your Discord Bot's token.
-- Run your bot by typing `node index.js`.
-- Your bot should be working and running. You should see "Logged in as ..." in your terminal.
+## How to install + set up the bot:
+- Clone repository:
+  ```
+  git clone https://github.com/Joshwgaming/Basic-DiscordJS-Bot-Template
+  ```
+- Configure the bot in `config.json`:
+  ```
+  {
+    "botToken": "your bot token here",
+    "prefix": "#"
+  }
+  ```
+- Install the required npm modules:
+  ```
+  npm install
+  ```
+- Start your bot:
+  ```
+  node index.js
+  ```
+- Once started, you should see `... successfully logged in.` in your terminal.
