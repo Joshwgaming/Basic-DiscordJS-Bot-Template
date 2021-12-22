@@ -10,7 +10,7 @@ const client = new Client({
 client.login(botToken)
 
 client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}.`);
+    console.log(`${client.user.tag} successfully logged in.`);
 });
 
 client.on('messageCreate', (message) => {
